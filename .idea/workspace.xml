@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25c97ab7-4608-430b-b212-6f3613e50839" name="Default Changelist" comment="created enum liente type and test to it">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/testes/TesteFuncionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="25c97ab7-4608-430b-b212-6f3613e50839" name="Default Changelist" comment="update to make person and employed abstract">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Analista.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digionebank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/digionebank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/testes/BancoTeste.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/testes/TesteBanco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/testes/TesteFuncionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalinnovation/digionebank/testes/TesteFuncionarioAnalista.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Enum" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -47,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="experimentalPlugin" />
   </component>
-  <component name="RunManager" selected="Kotlin.TesteClienteTipoEnumKt">
+  <component name="RunManager" selected="Kotlin.TesteFuncionarioAnalistaKt">
     <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.PessoaKt" />
       <module name="digionebank" />
@@ -69,6 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteFuncionarioAnalistaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.testes.TesteFuncionarioAnalistaKt" />
+      <module name="digionebank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestePessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.digionebank.testes.TestePessoaKt" />
       <module name="digionebank" />
@@ -78,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteFuncionarioAnalistaKt" />
         <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
         <item itemvalue="Kotlin.TesteBancoKt" />
         <item itemvalue="Kotlin.TestePessoaKt" />
@@ -122,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625867404398</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update to make person and employed abstract">
+      <created>1627428781267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627428781267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +159,8 @@
     <MESSAGE value="created account class" />
     <MESSAGE value="created bank class and test to it" />
     <MESSAGE value="created enum liente type and test to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="created enum liente type and test to it" />
+    <MESSAGE value="update to make person and employed abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to make person and employed abstract" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
