@@ -6,9 +6,7 @@ import one.digitalinnovation.digionebank.Pessoa
 import java.math.BigDecimal
 
 fun main() {
-    val joao = Analista("Jether Rodrigues", "1234567899", 2000.0)
-
+    val joao = Analista("João Pedro", "1234567899", 2000.0)
     imprimeRelatorio(joao)
-
 }
 fun imprimeRelatorio(funcionario: Funcionario) = println(funcionario.toString())
